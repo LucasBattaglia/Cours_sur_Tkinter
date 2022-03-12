@@ -9,6 +9,4 @@ if __name__ == '__main__':
 	Texte = tkinter.Label(master=fenetre, text="Bienvenue", bg="green", font=("Ink Free", 20), justify= tkinter.CENTER, underline=0, relief=tkinter.GROOVE)
 	Texte.pack()
 
-
-
 	fenetre.mainloop()
