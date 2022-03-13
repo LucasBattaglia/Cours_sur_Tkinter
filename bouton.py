@@ -1,7 +1,9 @@
 import tkinter
 
+
 def affiche_hello():
 	print("hello")
+
 
 if __name__ == '__main__':
 	# Creation de la fenetre principale
@@ -12,7 +14,7 @@ if __name__ == '__main__':
 	Bouton = tkinter.Button(fenetre, text="Bienvenue", bg="green", activebackground="Yellow", activeforeground="blue", command=affiche_hello)
 	Bouton.pack()
 
-	Bouton_desactiver = tkinter.Button(fenetre, text="Bienvenue", bg="Yellow", activebackground="Yellow", activeforeground="blue", state= tkinter.DISABLED, command=affiche_hello)
+	Bouton_desactiver = tkinter.Button(fenetre, text="Bienvenue", bg="Yellow", activebackground="Yellow", activeforeground="blue", state=tkinter.DISABLED, command=affiche_hello)
 	Bouton_desactiver.pack()
 
 	fenetre.mainloop()

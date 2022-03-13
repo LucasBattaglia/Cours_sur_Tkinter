@@ -1,18 +1,23 @@
 import tkinter
 
+
 def Conf_joueur():
 	print("Configuration du joueur")
 
+
 def Conf_interface():
 	print("Configuration de l'interface")
+
 
 def fenetre2():
 	global fenetre2
 	fenetre2 = tkinter.Toplevel(fenetre)
 
+
 def close():
 	global fenetre2
 	fenetre2.destroy()
+
 
 if __name__ == '__main__':
 	# Creation de la fenetre principale
@@ -36,6 +41,4 @@ if __name__ == '__main__':
 	menu_bar.add_command(label="Quitter", command=fenetre.destroy)
 
 	fenetre.config(menu=menu_bar)
-
-
 	fenetre.mainloop()
