@@ -21,7 +21,7 @@ if __name__ == '__main__':
     Canvas_dessin.create_line((10, 30), (50, 30), (10, 50), (50, 50))
 
     # Dessinner un rectangle
-    Canvas_dessin.create_rectangle([60, 10], (120, 30))
+    Canvas_dessin.create_rectangle((60, 10), (120, 30))
     Canvas_dessin.create_rectangle((130, 10), (170, 50), outline="", fill="orange")
 
     # Dessiner un oval

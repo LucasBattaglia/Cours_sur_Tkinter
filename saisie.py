@@ -12,7 +12,7 @@ if __name__ == '__main__':
 	Saisie.pack()
 	VarS1 = tkinter.StringVar()
 	print(VarS1.get())
-	Saisie2 = tkinter.Entry(fenetre, textvariable=VarS1, show="*")
+	Saisie2 = tkinter.Entry(fenetre, textvariable=VarS, show="*")
 	Saisie2.pack()
 
 	fenetre.mainloop()

@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
 	menu_bar.add_cascade(label="Configuration", menu=Conf_menu)
 	menu_bar.add_cascade(label="Profil", menu=profil_menu)
-	menu_bar.add_command(label="Quitter", command=fenetre.destroy)
+	menu_bar.add_command(label="Quitter", command=lambda: fenetre.destroy())
 
 	fenetre.config(menu=menu_bar)
 	fenetre.mainloop()
